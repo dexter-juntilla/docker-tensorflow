@@ -1,0 +1,8 @@
+- make sure docker and docker-compose is installed and running
+- create the docker image
+    - `bash build.sh` or `docker build -t tensorflow:0.2 .`
+- create the docker container and volume
+    - `docker-compose up`
+- open the url shown in the termal
+- open `TSNotebook.ipynb`
+- run the code in `TSNotebook.ipynb` one by one

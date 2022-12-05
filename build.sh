@@ -1,0 +1,1 @@
+docker build -t tensorflow:0.2 .

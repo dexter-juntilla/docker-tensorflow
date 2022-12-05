@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  app:
+    image: tensorflow:0.2
+    # command:
+    #   - /bin/sh
+    #   - -c
+    #   - |
+    #     pip freeze
+    volumes:
+      - jovyan:/home/jovyan
+    ports:
+      - 8888:8888
+volumes:
+  jovyan:
